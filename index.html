@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation in HTML | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+  
+  </head>
+  <body>
+    <form action="Fisaorana.html">
+      <h2>Fanamarihana</h2>
+      <div class="form-group fullname">
+        <label for="fullname">Anarana feno</label>
+        <input type="text" id="fullname" placeholder="Soraty eto ny anarana feno">
+      </div>
+      <div class="form-group email">
+        <label for="email">Adresse mailaka
+        </label>
+        <input type="text" id="email" placeholder="Soraty eto ny adresse mailaka">
+      </div>
+      <div class="form-group date">
+        <label for="date">Ny daty nahaterahana</label>
+        <input type="date" id="date" placeholder="Select your date">
+      </div>
+      <div class="form-group age">
+        <label for="age">Ny taona</label>
+        <input type="number" id="age" placeholder="Soraty eto ny taona marina">
+      </div>
+      <div class="form-group gender">
+        <label for="gender">Lahy sa vavy</label>
+        <select id="gender">
+          <option value="" selected disabled>Misafidiana izay izy</option>
+          <option value="Male">Lahy</option>
+          <option value="Female">Vavy</option>
+          <option value="Other">Tsy voateny</option>
+        </select>
+      </div>
+      <div class="form-group password">
+        <label for="password">Ny tenimiafina</label>
+        <input type="password" id="password" placeholder="Soraty eto ny teny mihafina">
+        <i id="pass-toggle-btn" class="fa-solid fa-eye"></i>
+      </div>
+      <div class="form-group password">
+        <label for="password">Hamarino ny tenimiafina</label>
+        <input type="password" id="password" placeholder="Soraty eto ny teny mihafina">
+        <i id="pass-toggle-btn" class="fa-solid fa-eye"></i>
+      </div>
+      <div class="form-group submit-btn">
+        <input type="submit" value="Halefa">
+      </div>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
